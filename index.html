@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Decor Business Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/1d5b66556a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <a href="#"><img src="images/logo.png" alt=""></a>
+                </div>
+                <button type="button" class="nav-toggler">
+                    <span></span>
+                </button>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#" onclick="navToggle()">Home</a></li>
+                        <li><a href="#about" onclick="navToggle()">About Us</a></li>
+                        <li><a href="#team" onclick="navToggle()">Our Team</a></li>
+                        <li><a href="#services" onclick="navToggle()">Services</a></li>
+                        <li><a href="#projects" onclick="navToggle()">Projects</a></li>
+                        <li><a href="#testimonials" onclick="navToggle()">Testimonials</a></li>
+                        <li><a href="#contact" onclick="navToggle()">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="home" id="#">
+        <div class="home-title">
+            <h4>PRETTIFY DESIGNS</h4>
+        </div>
+        <div class="home-container">
+            <div class="home-photo">
+                <img src="images/home.jpg" alt="">
+            </div>
+            <div class="home-content">
+               <h1>Your <br> Home, <br> Designed</h1>
+               <div class="learn-more">
+                <a href="#about">LEARN MORE</a>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <div class="title">
+                    <h1>Spaces that make you want to stay</h1>
+                </div>
+                <div class="para">
+                    <p>Welcome to Prettify Interior, where we turn spaces into stories. At Prettify, our dedicated team of skilled designers brings your unique vision to life, crafting captivating interiors that blend style with functionality. We believe in creating more than just aesthetically pleasing spaces; we design environments that resonate with emotion and elevate your daily experience. From cozy homes to vibrant offices, each project is tailored to reflect the distinct personality and aspirations of our clients. Join us in transforming spaces into masterpieces, where every detail counts and every corner tells a story. Welcome to Prettify Interior – where design meets emotion.</p>
+                </div>
+            </div>
+            <div class="about-photo">
+                <div class="image-1">
+                    <img src="images/about-1.jpg" alt="">
+                </div>
+                <div class="image-2">
+                    <img src="images/about-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team" id="team">
+        <div class="team-title">
+            <h1>Get to Know Our Team</h1>
+        </div>
+        <div class="team-container">
+            <div class="member">
+                <div class="member-photo">
+                <img src="images/member-1.jpg" alt="">
+            </div>
+            <div class="about-member">
+                <h5>Liz Flaffham</h5>
+                <p>CEO</p>
+            </div>
+            </div>
+            <div class="member">
+                <div class="member-photo">
+                <img src="images/member-2.jpg" alt="">
+            </div>
+            <div class="about-member">
+                <h5>Douglas Galveston</h5>
+                <p>Creative Director</p>
+            </div>
+            </div>
+            <div class="member">
+                <div class="member-photo">
+                <img src="images/member-3.jpg" alt="">
+            </div>
+            <div class="about-member">
+                <h5>Sacha Dubois</h5>
+                <p>Project Coordinator</p>
+            </div>
+            </div>
+            <div class="member">
+                <div class="member-photo">
+                <img src="images/member-4.jpg" alt="">
+            </div>
+            <div class="about-member">
+                <h5>Venice Peeters</h5>
+                <p>Designer</p>
+            </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="title">
+            <h1>What We Can Do for You</h1>
+        </div>
+        <div class="service-container">
+            <div class="service">
+                <div class="number">
+                    <h1>01</h1>
+                </div>
+                <div class="photo">
+                    <img src="images/service-1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Home Staging</p>
+                </div>
+            </div>
+            <div class="service">
+                <div class="number">
+                    <h1>02</h1>
+                </div>
+                <div class="photo">
+                    <img src="images/service-2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Home Design</p>
+                </div>
+            </div>
+            <div class="service">
+                <div class="number">
+                    <h1>03</h1>
+                </div>
+                <div class="photo">
+                    <img src="images/service-3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Furniture Leasing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="title">
+            <h1>Our Recent Projects</h1>
+        </div>
+        <div class="projects-container">
+            <div class="project-item">
+                <div class="photo">
+                    <img src="images/project-1.jpg" alt="">
+                </div>
+                <div class="hr"></div>
+                <div class="text">
+                    <div class="text-item">
+                    <div class="item-title">Project</div>
+                    <div class="desc">Takahashi Residence</div>
+                </div>
+                <div class="text-item">
+                    <div class="item-title">Year</div>
+                    <div class="desc">2023</div>
+                </div>
+                <div class="text-item">
+                    <div class="item-title">Type</div>
+                    <div class="desc">Residential</div>
+                </div>
+                </div>
+               
+            </div>
+            <div class="project-item">
+                <div class="photo">
+                    <img src="images/project-2.jpg" alt="">
+                </div>
+                <div class="hr"></div>
+                <div class="text">
+                    <div class="text-item">
+                    <div class="item-title">Project</div>
+                    <div class="desc">Santa Solana Beach House
+                       </div>
+                </div>
+                <div class="text-item">
+                    <div class="item-title">Year</div>
+                    <div class="desc">2022</div>
+                </div>
+                <div class="text-item">
+                    <div class="item-title">Type</div>
+                    <div class="desc"> 
+                        Residential</div>
+                </div>
+                </div>
+               
+            </div>
+            <div class="project-item">
+                <div class="photo">
+                    <img src="images/project-3.jpg" alt="">
+                </div>
+                <div class="hr"></div>
+                <div class="text">
+                    <div class="text-item">
+                    <div class="item-title">Project</div>
+                    <div class="desc">Fairhill Rental Condo</div>
+                </div>
+                <div class="text-item">
+                    <div class="item-title">Year</div>
+                    <div class="desc">2021</div>
+                </div>
+                <div class="text-item">
+                    <div class="item-title">Type</div>
+                    <div class="desc">Semi-Residential</div>
+                </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="title">
+            <h1>What Our Clients Say</h1>
+        </div>
+        <div class="testimonials-container">
+            <div class="item">
+                <p>"Prettify Interior turned my house into a dream home! The attention to detail and personalized touch made the entire process enjoyable. From the initial concept to the final execution, their team exceeded my expectations. Now, every room tells a unique story, and I can't help but fall in love with my home over and over again. Thank you, Prettify Interior, for creating a space that truly feels like 'me'!"</p>
+                <h4>-Maddie Jonnes</h4>
+            </div>
+            <div class="item">
+                <p>"Working with Prettify Interior was a game-changer for my office space. The transformation not only boosted productivity but also added a touch of sophistication. The functional yet stylish design has made my workplace more enjoyable. Colleagues often compliment the ambiance, making it a great conversation starter. Prettify Interior knows how to strike the perfect balance between form and function."</p>
+                <h4>- Trin Hien</h4>
+            </div>
+            <div class="item">
+                <p>"Prettify Interior elevated the shopping experience for our customers. The store's new design is chic and inviting, reflecting our brand perfectly. The creative use of space has not only increased foot traffic but also enhanced the overall customer engagement. Prettify Interior's expertise in retail design is unmatched, and we couldn't be happier with the results. Our sales have seen a noticeable uptick, and customers love the new look!"</p>
+                <h4>- Imani Olowe</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h1>We'd love to work with you. Call us now.</h1>
+        </div>
+            <div class="contact-container">
+                <div class="photo">
+                    <img src="images/contact.jpg" alt="">
+                </div>
+                <div class="text">
+                    <div class="item">
+                        <h4>Address</h4>
+                        <p>123 Anywhere St., Any City ST 12345</p>
+                    </div>
+                    <div class="item">
+                        <h4>Phone</h4>
+                        <p>(123) 456-7890</p>
+                    </div>
+                    <div class="item">
+                        <h4>Email</h4>
+                        <p>hello@prettifyinterior.com</p>
+                    </div>
+                    <div class="item">
+                        <h4>Social</h4>
+                        <p> <a href="#"> <i class="fa-brands fa-facebook"></i></a>&nbsp;
+                            <a href="#"> <i class="fa-brands fa-x-twitter"></i></a>&nbsp;
+                            <a href="#"> <i class="fa-brands fa-square-instagram"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
